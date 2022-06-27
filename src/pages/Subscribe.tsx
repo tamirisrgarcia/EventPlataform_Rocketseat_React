@@ -59,7 +59,7 @@ export function Subscribe(){
 
                         <button 
                          type="submit"
-                         //disabled={loading}
+                         disabled={loading}
                          className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50"
                         >
                            Garantir minha vaga 
@@ -69,7 +69,7 @@ export function Subscribe(){
             </div>
             
             
-            <img src="/src/assets/codemockup.png" alt="" />
+            <img src="/public/images/codemockup.png" alt="" />
         </div>
     )
 }
