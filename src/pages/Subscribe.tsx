@@ -28,8 +28,8 @@ export function Subscribe(){
 
     return (
         <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
-            <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
-                <div className="max-w-[640px]">
+            <div className="w-full max-w-[1100px] z-10 flex flex-col items-center justify-between mt-10 p-5 mx-auto md:flex-row md:mt-20 xl:p-0">
+                <div className="md:max-w-[640px] p-2 xl:p-0 w-full items-center justify-items-center">
                     <Logo />
 
                     <h1 className="mt-8 text-[2.5rem] leading-tight">
@@ -40,7 +40,7 @@ export function Subscribe(){
                     </p>
                 </div>
 
-                <div className="p-8 bg-gray-700 border border-gray-500 rounded">
+                <div className="p-8 bg-gray-700 border border-gray-500 rounded mt-4 md:mt-0 max-w-[500px] lg:max-w-[400px]">
                     <strong className="text-2xl mb-6 block">Increva-se gratuitamente</strong>
 
                     <form onSubmit={handleSubscribe} className="flex flex-col gap-2 w-full">
